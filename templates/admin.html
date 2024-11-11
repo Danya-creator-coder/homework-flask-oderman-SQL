@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Додати піцу</title>
+</head>
+<body>
+    <h1>Додати нову піцу</h1>
+    <form action="/admin" method="POST">
+        <label for="name">Назва піци:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="description">Опис піци:</label><br>
+        <textarea id="description" name="description" required></textarea><br><br>
+
+        <label for="price">Ціна:</label><br>
+        <input type="number" id="price" name="price" required><br><br>
+
+        <input type="submit" value="Додати піцу">
+    </form>
+</body>
+</html>
